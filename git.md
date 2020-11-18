@@ -21,7 +21,7 @@ $ git checkout -- index.html  撤销操作（git仓库的代码覆盖工作区�
 $  clear 清屏窗口
 $ git add . 一次性全部提交到暂存区
 $ git reset HEAD 从暂存区移除
-$ git commit -a -m  跳过暂存直接存在仓库
+$ git commit -a -m  跳过暂存直接存在仓库(需要保存过一次)
 $ git rm -f index.html 同时移除工作区和仓库
 $ git rm --cached xxx 移除仓库
 
@@ -29,9 +29,13 @@ git log 提交历史 查看历史 Q结束查看
 git log -2 提交最近两次历史
 
 ### github
+
+通过HTTP
 第一次上传
       第一步：git remote add origin https://github.com/Choose-Ming/project_01.git
       第二步：git push -u origin main
       注意： main---改为master
 第n次
       git push
+#### 密钥
+ssh-keygen
