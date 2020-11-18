@@ -27,3 +27,11 @@ $ git rm --cached xxx 移除仓库
 
 git log 提交历史 查看历史 Q结束查看
 git log -2 提交最近两次历史
+
+### github
+第一次上传
+      第一步：git remote add origin https://github.com/Choose-Ming/project_01.git
+      第二步：git push -u origin main
+      注意： main---改为master
+第n次
+      git push
