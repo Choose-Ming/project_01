@@ -39,3 +39,4 @@ git log -2 提交最近两次历史
       git push
 #### 密钥
 ssh-keygen
+在本地查询密码
