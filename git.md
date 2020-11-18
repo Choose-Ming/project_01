@@ -19,7 +19,7 @@ $ git add 提交到暂存区
 $ git commit -m'index.text第一次提交'  从暂存区提交到仓库
 $ git checkout -- index.html  撤销操作（git仓库的代码覆盖工作区的代码）
 $  clear 清屏窗口
-$ git add . 一次性全部提交
+$ git add . 一次性全部提交到暂存区
 $ git reset HEAD 从暂存区移除
 $ git commit -a -m  跳过暂存直接存在仓库
 $ git rm -f index.html 同时移除工作区和仓库
